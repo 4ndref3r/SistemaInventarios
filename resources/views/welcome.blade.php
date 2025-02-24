@@ -710,7 +710,7 @@
                         <a href="#"><i class="fab fa-youtube"></i></a>
                     </div>
                     <div class="cart-icon">
-                        <a href="dashboard" class="text-white">
+                        <a href="admin" class="text-white">
                             <i class="fas fa-shield"></i>
                         </a>
                     </div>

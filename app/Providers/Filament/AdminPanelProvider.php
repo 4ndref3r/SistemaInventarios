@@ -61,6 +61,8 @@ class AdminPanelProvider extends PanelProvider
       ->plugin(FilamentSpatieRolesPermissionsPlugin::make())
       ->authMiddleware([
         Authenticate::class,
-      ]);
+      ])
+      ->brandLogo(asset('images/logo_white.png'))
+      ->brandLogoHeight('5rem');;
   }
 }
